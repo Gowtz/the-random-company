@@ -619,6 +619,11 @@ video {
   margin-bottom: 5rem;
 }
 
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -641,6 +646,18 @@ video {
 
 .mt-32{
   margin-top: 8rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
 }
 
 .flex{
@@ -681,6 +698,10 @@ video {
 
 .h-\[calc\(100vh-56px\)\]{
   height: calc(100vh - 56px);
+}
+
+.min-h-80{
+  min-height: 20rem;
 }
 
 .w-3\/4{
@@ -845,12 +866,21 @@ video {
   padding-bottom: 9rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pt-10{
   padding-top: 2.5rem;
 }
 
 .pt-32{
   padding-top: 8rem;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .text-justify{
@@ -960,6 +990,11 @@ html{
   transition: ease-in 150ms;
 }
 
+footer h3{
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
 .bg-image{
   background: url("../public/Building.png") no-repeat ;
   background-position: bottom 0px right 0px;
@@ -1016,6 +1051,11 @@ html{
   .md\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 }
 

@@ -17,6 +17,10 @@ html{
     transition: ease-in 150ms;   
 }
 
+footer h3{
+    @apply text-blue-500
+}
+
 .bg-image{
     background: url("../public/Building.png") no-repeat ;
     background-position: bottom 0px right 0px;
